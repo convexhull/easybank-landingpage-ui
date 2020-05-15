@@ -1,0 +1,35 @@
+
+
+
+@media all and (max-width: 1023px) {
+    .intro {
+        margin-top: 10vh;
+        height: 110vh;
+        background-repeat: no-repeat ;
+        background-position: 300px -250px;
+        background-size: auto ;
+        /* display: flex; */
+        /* align-items: center;
+        justify-content: space-between; */
+    }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+    .intro {
+        margin-top: 10vh;
+        height: 110vh;
+        background-repeat: no-repeat ;
+        background-position: 100px -250px;
+        background-size: auto ;
+        /* display: flex; */
+        /* align-items: center;
+        justify-content: space-between; */
+    }
+}
