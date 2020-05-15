@@ -17,6 +17,8 @@ very light grey: hsl(0, 0%, 98%);
     font-size: 18px;
 }
 
+
+
 section {
     padding: 80px 0;
 }
@@ -234,7 +236,6 @@ nav ul a:active  {
 .article-card div:nth-child(2){
     width: 80%;
     margin: 0 auto;
-
 }
 
 .article-card img {
@@ -266,3 +267,64 @@ address {
 
 
 
+
+/*----------------FOOTER-------------------*/
+
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    padding: 80px 0 40px 0;
+}
+
+
+footer a:link,
+footer a:visited {
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    font-size: 80%;
+}
+
+.footer-nav {
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.social-links  {
+    flex-basis: 25%;
+}
+
+.icon-container {
+    margin-top: 50px;
+}
+
+.icon-container > img {
+    margin-right: 8px;
+}
+
+
+
+
+.internal-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-basis: 40%;
+}
+
+
+
+.copyright-info {
+    flex-basis: 25%;
+    margin-left: auto;
+    text-align: right;
+    color: hsl(233, 8%, 62%);
+}
+
+.copyright-info > p {
+    margin-top: 25px;
+}
+
+small {
+     font-size: 80%;   
+}
